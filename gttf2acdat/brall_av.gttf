@@ -1,0 +1,68 @@
+1.00000e-01
+1.00000e+00 0.00000e+00 0.00000e+00
+0.00000e+00 1.00000e+00 0.00000e+00
+0.00000e+00 0.00000e+00 1.00000e+00
+17
+-1.70000e-02 3.90000e-03 -6.83333e-02 4.58123e-02
+-1.70000e-02 3.90000e-03 -5.96667e-02 6.28539e-02
+-1.70000e-02 3.90000e-03 -5.10000e-02 7.45356e-02
+-1.70000e-02 3.90000e-03 -4.23333e-02 8.31479e-02
+-1.70000e-02 3.90000e-03 -3.36667e-02 8.95806e-02
+-1.70000e-02 3.90000e-03 -2.50000e-02 9.42809e-02
+-1.70000e-02 3.90000e-03 -1.63333e-02 9.74996e-02
+-1.70000e-02 3.90000e-03 -7.66667e-03 9.93808e-02
+-1.70000e-02 3.90000e-03 1.00000e-03 1.00000e-01
+-1.70000e-02 3.90000e-03 9.66667e-03 9.93808e-02
+-1.70000e-02 3.90000e-03 1.83333e-02 9.74996e-02
+-1.70000e-02 3.90000e-03 2.70000e-02 9.42809e-02
+-1.70000e-02 3.90000e-03 3.56667e-02 8.95806e-02
+-1.70000e-02 3.90000e-03 4.43333e-02 8.31479e-02
+-1.70000e-02 3.90000e-03 5.30000e-02 7.45356e-02
+-1.70000e-02 3.90000e-03 6.16667e-02 6.28539e-02
+-1.70000e-02 3.90000e-03 7.03333e-02 4.58123e-02
+*
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_01-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_02-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_03-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_04-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_01-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_02-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_03-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_04-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_01-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_02-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_03-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmhv_04-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_01-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_02-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_03-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlv_04-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlc_01-st-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlc_02-st-nfr_moving_up-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlc_01-st-nfr_moving_down-200e600_av_balerito.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/marc/BRALL/MS3_vmlc_02-st-nfr_moving_down-200e600_av_balerito.hyp
+use_mri_info
+marc.inf
+use_desctemplate
+subject=marc
+ssp=left11a,right11a,top11a,back11a

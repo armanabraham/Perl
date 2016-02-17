@@ -1,0 +1,3 @@
+Program which chops ACDAT containing too many ROI into equal parts
+
+

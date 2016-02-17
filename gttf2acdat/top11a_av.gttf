@@ -1,0 +1,54 @@
+8.50000e-02
+1.00000e+00 0.00000e+00 0.00000e+00
+0.00000e+00 1.00000e+00 0.00000e+00
+0.00000e+00 0.00000e+00 1.00000e+00
+11
+-2.00000e-03 2.18750e-03 9.84375e-03 8.50000e-02
+-2.00000e-03 2.18750e-03 1.64801e-02 8.37174e-02
+-2.00000e-03 2.18750e-03 2.31165e-02 8.18786e-02
+-2.00000e-03 2.18750e-03 2.97528e-02 7.94452e-02
+-2.00000e-03 2.18750e-03 3.63892e-02 7.63602e-02
+-2.00000e-03 2.18750e-03 4.30256e-02 7.25407e-02
+-2.00000e-03 2.18750e-03 4.96619e-02 6.78626e-02
+-2.00000e-03 2.18750e-03 5.62983e-02 6.21324e-02
+-2.00000e-03 2.18750e-03 6.29347e-02 5.50222e-02
+-2.00000e-03 2.18750e-03 6.95710e-02 4.58953e-02
+-2.00000e-03 2.18750e-03 7.62074e-02 3.31245e-02
+*
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_01-nfr.mksdir/top11a/HT2_vmhv_01-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_01-nfr.mksdir/top11a/HT2_vmhv_01-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_02-nfr.mksdir/top11a/HT2_vmhv_02-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_02-nfr.mksdir/top11a/HT2_vmhv_02-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_03-nfr.mksdir/top11a/HT2_vmhv_03-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_03-nfr.mksdir/top11a/HT2_vmhv_03-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_04-nfr.mksdir/top11a/HT2_vmhv_04-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmhv_04-nfr.mksdir/top11a/HT2_vmhv_04-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_01-nfr.mksdir/top11a/HT2_vmlv_01-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_01-nfr.mksdir/top11a/HT2_vmlv_01-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_02-nfr.mksdir/top11a/HT2_vmlv_02-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_02-nfr.mksdir/top11a/HT2_vmlv_02-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_03-nfr.mksdir/top11a/HT2_vmlv_03-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_03-nfr.mksdir/top11a/HT2_vmlv_03-nfr_moving_down-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_04-nfr.mksdir/top11a/HT2_vmlv_04-nfr_moving_up-200e600_av_top11a90.hyp
+-200.000 1.60000 600.000
+/data8/VISUAL_EXP/MOTION/hiroshige/HT2_vmlv_04-nfr.mksdir/top11a/HT2_vmlv_04-nfr_moving_down-200e600_av_top11a90.hyp
+use_mri_info
+hbd010_hiroshige_takeichi_15T.inf
+use_desctemplate
+subject=hbd010_hiroshige_takeichi_15T
+ssp=left11a,right11a,top11a,back11a
