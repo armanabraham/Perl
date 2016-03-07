@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #####################################################################################
-#  SYNOPSYS:
+#  USAGE:
 #  filter_gttf.pl <input_gttf_file> <key_for_filter> <output_gttf_file>
 #####################################################################################
 
@@ -47,7 +47,7 @@ sub WriteFilteredGTTF(@filtered_gttf, $output_gttf_name)
 sub GetSelectedHyperf( @input_gttf, $keyword, $current_line, $n_of_hyperf )  {
   $#selection = -1;
 
-  # Check keyword to see whether it has epoch selection criteria or not
+  # Check whether has epoch selection criteria or not
   if ($keyword =~ '_ep') {
     $tmpKeyword = $keyword;
     $tmpKeyword =~ s/_ep/_ep\(/;
@@ -95,10 +95,10 @@ sub SelectGTTFKeywords( @input_gttf, $current_line )
     for ($ind_key = 0; $ind_key < $#key_to_select; $ind_key+=2 ) {
       for ( $ind_line = $current_line; $ind_line < ( $current_line + $#input_gttf ); $ind_line++  ) {
 	if ( $input_gttf[$ind_line] =~ /$key_to_select[$ind_key]/ ) {
-	  # Number of lines to read with keyword
+	  # Number of lines to read with the keyword
 	  $n_of_key_lines = $key_to_select[$ind_key + 1]; 
 		
-	  # Copy all staff concerned key
+	  # Copy everything related to the key
 	  for ( $ind_tmp = 0; $ind_tmp < $n_of_key_lines + 1; $ind_tmp++ ) {
 	    push( @selected_keys, $input_gttf[$ind_line + $ind_tmp] );
 	  }
@@ -115,11 +115,11 @@ sub SelectGTTFKeywords( @input_gttf, $current_line )
 ##################################################################################
 
 sub FilterGTTF(@input_gttf)  {
-  # Stores position of the current line beeing proceed
+  # Position of the current line being processed
   $current_line = 0;
 
   # Copy first 4 lines without any changes
-  # It is a radius and transformation matrix 
+  # These are radius and transformation matrices 
   for ( $ind_line = 0; $ind_line < 4; $ind_line++ ) {
     push(@filtered_gttf, $input_gttf[$ind_line]);
   }
@@ -224,9 +224,9 @@ if ($#ARGV == 2) {
     print "When using regular expressions be aware to precede * and ? with backslash symbol\n";
     print "Example:  filter_gttf input.gttf output.gttf \\*str1\\*str2 excl\\*\n";
     print "To select epochs you want write \"_ep\" plus epoch numbers separated by commas.\n";
-    print "!!! DON'T USE THE SPACE BETWEEN THE EPOCH NUMBERS\n";      
+    print "!!! DON'T USE SPACE BETWEEN THE EPOCH NUMBERS\n";      
     print "Example: filter_gttf input.gttf output.gttf _ep1,2,3,10";
-    print "\nNOTE: Exclude keyword is optional\n";
+    print "\nNOTE: <exclude keyword> is optional\n";
     exit 1;
   }
 }
@@ -238,7 +238,7 @@ $keyword = &RegularExpressionCorrection($keyword);
 $exclude = &RegularExpressionCorrection($exclude);
 
 if ( $input_gttf_name =~ $output_gttf_name ) {
-  print " ERROR - input and output file names could not be similar\n";
+  print " ERROR - input and output file names cannot be the same\n";
   exit;
 }
 
