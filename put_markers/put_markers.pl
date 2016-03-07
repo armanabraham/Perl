@@ -9,7 +9,7 @@
 #  New ACDATs are genereted in the subdirectory SELECTED of the current
 #  direcotry
 #  
-#  SYNOPSYS:
+#  USAGE:
 #  put_markers.pl <file_with_markers>
 ################################################################################################################
 
@@ -45,7 +45,7 @@ sub ReadMarkers($markers_name)
     # Open ACDAT file for reading
     $temp_file_name = "tmp_sort_markers";
 
-    # Create temporary file which contains only unique numbers
+    # Create temporary file which only contains unique numbers
     system("cat " . $markers_name . "|sort|uniq >> " . $temp_file_name);
     system("chmod a+rw " . $temp_file_name);
     open (MARKERS_INPUT, $temp_file_name) || die "Unable to open file" . $temp_file_name; 
@@ -163,8 +163,6 @@ sub WriteACDATForRest(@acdat, @ROI_numbers, $input_acdat_name)
 	$from_rest = 1;
     }
 
-    
-    
     seek ACDAT_REST, -1, 1;
     close ACDAT_REST;;
 
