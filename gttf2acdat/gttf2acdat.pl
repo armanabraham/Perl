@@ -129,7 +129,7 @@ if ($#ARGV < 1) {
 ###########
 
 if ( $#ACDATContents == -1 ) {
-  print "WARNING: Could find no hyperfile(s) for the given parameters\n";
+  print "WARNING: Could not find hyperfile(s) for given parameters\n";
 } else {
   &WriteACDAT(@ACDATContents, $outputACDATFileName);
 }
